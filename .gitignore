@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Django migrations
+*/migrations/
+!*/migrations/__init__.py
+
+# Environment
+.env
+*.env
+venv/
+env/
+ENV/
+.venv/
+
+# SQLite database
+*.sqlite3
+
+# VSCode & IDE
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Static/media (optional if collected)
+staticfiles/
+media/
